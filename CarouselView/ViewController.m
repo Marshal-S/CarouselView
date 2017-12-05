@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "QYLCarouselView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self initContentView];
+}
+
+- (void)initContentView {
+    NSArray *images = @[@"0.jpg",@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg",@"7.jpg"];
+    QYLCarouselView *carouselView = [[QYLCarouselView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.width*9/16) images:images];
+    [self.view addSubview:carouselView];
 }
 
 

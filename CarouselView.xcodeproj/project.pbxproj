@@ -15,6 +15,16 @@
 		F3026BF31FD67B3300C72DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3026BF21FD67B3300C72DFE /* main.m */; };
 		F3026BFD1FD67B3300C72DFE /* CarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3026BFC1FD67B3300C72DFE /* CarouselViewTests.m */; };
 		F3026C081FD67B3300C72DFE /* CarouselViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3026C071FD67B3300C72DFE /* CarouselViewUITests.m */; };
+		F3026C171FD67BB300C72DFE /* QYLCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3026C161FD67BB300C72DFE /* QYLCarouselView.m */; };
+		F3026C201FD6946D00C72DFE /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C191FD6946C00C72DFE /* 0.jpg */; };
+		F3026C211FD6946D00C72DFE /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C1A1FD6946C00C72DFE /* 3.jpg */; };
+		F3026C221FD6946D00C72DFE /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C1B1FD6946C00C72DFE /* 5.jpg */; };
+		F3026C231FD6946D00C72DFE /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C1C1FD6946D00C72DFE /* 6.jpg */; };
+		F3026C241FD6946D00C72DFE /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C1D1FD6946D00C72DFE /* 4.jpg */; };
+		F3026C251FD6946D00C72DFE /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C1E1FD6946D00C72DFE /* 7.jpg */; };
+		F3026C261FD6946D00C72DFE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C1F1FD6946D00C72DFE /* 1.jpg */; };
+		F3026C281FD6947500C72DFE /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3026C271FD6947500C72DFE /* 2.jpg */; };
+		F3026C2B1FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3026C2A1FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,18 @@
 		F3026C031FD67B3300C72DFE /* CarouselViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3026C071FD67B3300C72DFE /* CarouselViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselViewUITests.m; sourceTree = "<group>"; };
 		F3026C091FD67B3300C72DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3026C151FD67BB300C72DFE /* QYLCarouselView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYLCarouselView.h; sourceTree = "<group>"; };
+		F3026C161FD67BB300C72DFE /* QYLCarouselView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYLCarouselView.m; sourceTree = "<group>"; };
+		F3026C191FD6946C00C72DFE /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		F3026C1A1FD6946C00C72DFE /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F3026C1B1FD6946C00C72DFE /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F3026C1C1FD6946D00C72DFE /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		F3026C1D1FD6946D00C72DFE /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F3026C1E1FD6946D00C72DFE /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		F3026C1F1FD6946D00C72DFE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F3026C271FD6947500C72DFE /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F3026C291FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+S_QYLAdjustScrollView.h"; sourceTree = "<group>"; };
+		F3026C2A1FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+S_QYLAdjustScrollView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,11 @@
 		F3026BE21FD67B3200C72DFE /* CarouselView */ = {
 			isa = PBXGroup;
 			children = (
+				F3026C181FD693AF00C72DFE /* Images */,
+				F3026C291FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.h */,
+				F3026C2A1FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.m */,
+				F3026C151FD67BB300C72DFE /* QYLCarouselView.h */,
+				F3026C161FD67BB300C72DFE /* QYLCarouselView.m */,
 				F3026BE31FD67B3200C72DFE /* AppDelegate.h */,
 				F3026BE41FD67B3200C72DFE /* AppDelegate.m */,
 				F3026BE61FD67B3200C72DFE /* ViewController.h */,
@@ -130,6 +157,21 @@
 				F3026C091FD67B3300C72DFE /* Info.plist */,
 			);
 			path = CarouselViewUITests;
+			sourceTree = "<group>";
+		};
+		F3026C181FD693AF00C72DFE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3026C191FD6946C00C72DFE /* 0.jpg */,
+				F3026C1F1FD6946D00C72DFE /* 1.jpg */,
+				F3026C271FD6947500C72DFE /* 2.jpg */,
+				F3026C1A1FD6946C00C72DFE /* 3.jpg */,
+				F3026C1D1FD6946D00C72DFE /* 4.jpg */,
+				F3026C1B1FD6946C00C72DFE /* 5.jpg */,
+				F3026C1C1FD6946D00C72DFE /* 6.jpg */,
+				F3026C1E1FD6946D00C72DFE /* 7.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +280,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3026C281FD6947500C72DFE /* 2.jpg in Resources */,
+				F3026C241FD6946D00C72DFE /* 4.jpg in Resources */,
+				F3026C231FD6946D00C72DFE /* 6.jpg in Resources */,
+				F3026C211FD6946D00C72DFE /* 3.jpg in Resources */,
+				F3026C201FD6946D00C72DFE /* 0.jpg in Resources */,
 				F3026BF01FD67B3300C72DFE /* LaunchScreen.storyboard in Resources */,
+				F3026C221FD6946D00C72DFE /* 5.jpg in Resources */,
+				F3026C251FD6946D00C72DFE /* 7.jpg in Resources */,
 				F3026BED1FD67B3300C72DFE /* Assets.xcassets in Resources */,
 				F3026BEB1FD67B3300C72DFE /* Main.storyboard in Resources */,
+				F3026C261FD6946D00C72DFE /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3026C2B1FD69E7400C72DFE /* UIScrollView+S_QYLAdjustScrollView.m in Sources */,
 				F3026BE81FD67B3300C72DFE /* ViewController.m in Sources */,
 				F3026BF31FD67B3300C72DFE /* main.m in Sources */,
 				F3026BE51FD67B3200C72DFE /* AppDelegate.m in Sources */,
+				F3026C171FD67BB300C72DFE /* QYLCarouselView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

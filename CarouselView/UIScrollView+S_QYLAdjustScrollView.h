@@ -10,7 +10,6 @@
 
 @interface UIScrollView (S_QYLAdjustScrollView)
 
-//isadjust指的是是否自动调整布局
-- (instancetype)adjustScrollView:(BOOL)isAdjust viewController:(UIViewController *)vc;
+- (instancetype)adjustScrollView;
 
 @end
