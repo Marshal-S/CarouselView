@@ -9,11 +9,6 @@
 #import "QYLCarouselView.h"
 #import "UIScrollView+S_QYLAdjustScrollView.h"
 
-typedef NS_ENUM(NSUInteger, QYLDirectionType) {
-    QYLDirectionTypeRight, //右侧方向图片
-    QYLDirectionTypeLeft //左侧方向图片
-};
-
 @interface QYLCarouselView ()<UIScrollViewDelegate>
 {
     NSInteger _totolCount;
@@ -146,14 +141,6 @@ typedef NS_ENUM(NSUInteger, QYLDirectionType) {
 #pragma mark --处理索引值
 - (NSInteger)getImageIndex:(NSInteger)index {
     return (index+_totolCount)%_totolCount;
-}
-
-- (void)willRemoveSubview:(UIView *)subview {
-    [super willRemoveSubview:subview];
-}
-
-- (void)dealloc {
-    NSLog(@"我要被销毁了");
 }
 
 @end
